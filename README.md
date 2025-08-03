@@ -18,24 +18,24 @@ curl -s https://ohmyposh.dev/install.sh | bash -s
 
 1. Clone this repository
 	```bash
-		git clone [repository]
+	git clone https://github.com/MarkTwin25/Random-Terminal-Styler-Oh-my-posh-.git
 	```
 2. Grant execution permissions to the script
 	```bash
-		chmod +x auto.py
+	chmod +x auto.py
 	```
 3. (Optional) If you want to try the srcipt, yo can do:
 	```bash
-		./auto.py
+	./auto.py
 	```
 	then, yo must do:
 	```bash
-		source ~/.bashrc
+	source ~/.bashrc
 	```
 	This is to recharge the terminal and yo can see your new bash style.
 
 4. If you want it to switch to a new style every time you start a new terminal, you must add this at the end  to your .bashrc file:
 	```
-	python3 python3 /absolutePath/auto.py
+	python3 /absolutePath/auto.py
 	```
 	Where "absolutePath" is the place where auto.py is.
